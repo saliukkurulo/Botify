@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BotifyInfo</title>
+  <link rel="icon" href="image 1.png" type="image/png">
+  <meta charset="UTF-8">
+<style>
+  body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+  }
+
+  .logo {
+    height: 80px;
+    width: auto;
+    margin-left: 10px;
+  }
+
+  header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+
+  header a:hover {
+    color: #b5b5b5;
+  }
+
+  h1 {
+    margin: 0;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("pexels-pavel-danilyuk-8438923.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin-top: 40px;
+    padding-left: 40px;
+  }
+
+  button {
+    padding: 15px 30px;
+    border: 3px solid #fff;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .about-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .about-header h1 {
+    margin: 0;
+    text-align: left;
+  }
+
+  .about-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    opacity: 0;
+    animation: fade-in 1s forwards;
+    animation-delay: 1s;
+  }
+
+  .about-container img {
+    max-width: 100%;
+    height: auto;
+    margin: -15px 0;
+    padding-left: 70px;
+  }
+
+  .about-container p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1
+      }
+    }
+    
+  </style>
+</head>
+<body>
+<header>
+  <img class="logo" src="image 1.png" alt="Botify Logo">
+  <h1>Botify</h1>
+  <a href="#about">О боте</a>
+</header>
+
+<div class="container">
+  <h2 style="color: white">Здесь вы найдете то, что не смогли раньше..</h2>
+  <button onclick="window.location.href='https://t.me/BotifyBot'">Try It</button>
+</div>
+
+<div class="about-header" id="about">
+  <h1>О БОТE</h1>
+</div>
+
+<div class="about-container">
+  <img src="pexels-cottonbro-studio-6153354-removebg-preview.png" alt="AI and Peaople" style="border-radius: 0%;">
+
+  <p>Botify — это полноценный карман, который дарит вам доступ к бесчисленным бесплатным Искусственным Интеллектам, полезным ПК, Android и IOS-приложениям. Однако это еще не все! Этот удивительный инструмент также позволяет получить доступ к множеству полезных сайтов и другим телеграм-ботам, которые помогут вам улучшить свой повседневный опыт. И самое главное, все это доступно абсолютно бесплатно!.</p>
+  <p>Так чего же вы ждете? Попробуйте Botify прямо сейчас и откройте для себя совершенно новый мир возможностей!</p>
+  <!-- <img src="pexels-cottonbro-studio-6153354.jpg" alt="Botify Screenshot"> -->
+
+<footer>
+  <div class="footer-content">
+    <p>Copyright © 2023 Saliuk Kirill</p>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  footer p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+  }
+</style>
+
+
+</div>
+
+</body>
+</html>
